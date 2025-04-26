@@ -34,10 +34,10 @@ int main() {
     vector<int> primes = printPrimeToN(n); 
     if (primes.empty()) {
         // Check for empty list
-        cout << "No prime numbers found." << endl;
+        cout << "Khong co so nguyen to" << endl;
     } else {
         // Print prime numbers
-        cout << "Prime numbers up to " << n << ": ";
+        cout << "Cac so nguyen to nho hon " << n << " la: ";
         for (int prime : primes) {
             cout << prime << " ";
         }
